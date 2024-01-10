@@ -14,6 +14,9 @@ body {
 }
 
 .content {
-    margin-top: 60px; /* Regola questo valore in base all'altezza della tua barra di navigazione */
+    /* Regola il punto da cui il sito parte per evitare che */
+    /* il testo e la barra di navigazione si sovrappongano subito */
+    margin-top: 60px;
+
     /* Altri stili per il contenuto del CV */
 }

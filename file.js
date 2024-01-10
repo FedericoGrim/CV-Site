@@ -1,13 +1,5 @@
-var prevScrollpos = window.pageYOffset;
-
+// Gestione dello scroll per la barra di navigazione
 window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-
-    if (prevScrollpos > currentScrollPos) {
-        document.querySelector(".navbar").style.top = "0";
-    } else {
-        document.querySelector(".navbar").style.top = "-60px"; /* Regola questo valore in base all'altezza della tua barra di navigazione */
-    }
-
-    prevScrollpos = currentScrollPos;
+    // Imposta sempre la barra di navigazione in cima
+    document.querySelector(".navbar").style.top = "0";
 };
