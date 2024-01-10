@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.content {
+    margin-top: 60px; /* Regola questo valore in base all'altezza della tua barra di navigazione */
+    /* Altri stili per il contenuto del CV */
+}
